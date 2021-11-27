@@ -31,3 +31,52 @@ in high level programming languages like [Solidity](https://docs.soliditylang.or
 ## web3
 
 [web3](https://www.npmjs.com/package/web3) library to be able to communicate with the Smart Contract
+
+# Remix
+
+[Remix](https://remix-project.org/) IDE allows developing, deploying and administering smart contracts for Ethereum like blockchains. It can also be used as a learning platform.
+
+## Solidity
+
+Solidity is an object-oriented, high-level language for implementing smart contracts.
+
+https://docs.soliditylang.org/en/latest/
+
+### Types
+
+- address
+- uint
+- int
+- fixed
+- bool
+- string
+
+### Types Complex
+
+- fixed array
+- dynamic array
+- mapping: Map, hashmap key, value
+- struct: struct to build complex types
+
+### Global variables
+
+Global variables in the Smart Contract
+
+`msg`: Properties data, gas, sender, value
+
+`require`: Función to validate actions
+
+### Modifier
+
+Build functions , decorators
+
+````
+modifier protected() {
+    require();
+    _;
+}
+
+function myFunction() public protected {
+
+}
+````

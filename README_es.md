@@ -31,3 +31,52 @@ La EVM permite que la red de Ethereum pueda ser programable, los Smart Contracts
 ## web3
 
 [web3](https://www.npmjs.com/package/web3) libreria para poder comunicarse con el Smart Contract
+
+# Remix
+
+[Remix] (https://remix-project.org/) IDE permite desarrollar, implementar y administrar Smart Contracts para Ethereum.
+
+## Solidity
+
+Lenguaje de programación para crear Smart Contracts
+
+https://docs.soliditylang.org/en/latest/
+
+### Types
+
+- address
+- uint
+- int
+- fixed
+- bool
+- string
+
+### Types Complex
+
+- fixed array: Array fijo, un solo type
+- dynamic array: Array dinamico, un solo type
+- mapping: Mapa, similar a javascript key, value
+- struct: Struct para crear tipo de datos complejos
+
+### Global variables
+
+Variables globales que estan en el Smart Contract
+
+`msg`: Properties data, gas, sender, value
+
+`require`: Función para validar, si falla la expresión corta el flow
+
+### Modifier
+
+Permite crear funciones para reutilizarlas
+
+````
+modifier protected() {
+    require();
+    _;
+}
+
+function myFunction() public protected {
+
+}
+````
