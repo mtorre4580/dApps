@@ -28,11 +28,11 @@ Los Smart Contracts en Ethereum, permiten ejecutar código en el blockchain
 La EVM permite que la red de Ethereum pueda ser programable, los Smart Contracts son escritos en un lenguaje de alto nivel 
 [Solidity](https://docs.soliditylang.org/en/v0.8.10/), que se compila a bytecode que entiende la EVM.
 
-## web3
+## Web3
 
 [web3](https://www.npmjs.com/package/web3) libreria para poder comunicarse con el Smart Contract
 
-# Remix
+## Remix
 
 [Remix] (https://remix-project.org/) IDE permite desarrollar, implementar y administrar Smart Contracts para Ethereum.
 
@@ -60,11 +60,9 @@ https://docs.soliditylang.org/en/latest/
 
 ### Global variables
 
-Variables globales que estan en el Smart Contract
+- `msg`: Properties data, gas, sender, value
 
-`msg`: Properties data, gas, sender, value
-
-`require`: Función para validar, si falla la expresión corta el flow
+- `require`: Función para validar, si falla la expresión corta el flow
 
 ### Modifier
 

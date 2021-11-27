@@ -28,11 +28,11 @@ Smart contracts on Ethereum enable us to execute arbitrary computations on the b
 The Ethereum Virtual Machine enables the Ethereum blockchain to be programmable. Ethereum Smart Contracts are written 
 in high level programming languages like [Solidity](https://docs.soliditylang.org/en/v0.8.10/), which have to be compiled down to Ethereum Virtual Machine (EVM) code
 
-## web3
+## Web3
 
 [web3](https://www.npmjs.com/package/web3) library to be able to communicate with the Smart Contract
 
-# Remix
+## Remix
 
 [Remix](https://remix-project.org/) IDE allows developing, deploying and administering smart contracts for Ethereum like blockchains. It can also be used as a learning platform.
 
@@ -60,11 +60,9 @@ https://docs.soliditylang.org/en/latest/
 
 ### Global variables
 
-Global variables in the Smart Contract
+- `msg`: Properties data, gas, sender, value
 
-`msg`: Properties data, gas, sender, value
-
-`require`: Función to validate actions
+- `require`: Función to validate actions
 
 ### Modifier
 
