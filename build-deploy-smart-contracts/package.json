@@ -1,7 +1,7 @@
 {
   "name": "example-build-contract",
   "version": "1.0.0",
-  "description": "Example to build contract with solc in node.js",
+  "description": "Example to build and deploy contract with solc, web3, hdwallet-provider in node.js",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/**/*.js",
