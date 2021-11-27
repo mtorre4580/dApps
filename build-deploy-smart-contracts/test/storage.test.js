@@ -1,7 +1,7 @@
 const assert = require("assert");
 const ganache = require("ganache-cli");
 const Web3 = require("web3");
-const { compile } = require("../helpers");
+const compile = require("../compile");
 
 // Instance web3 with the provider from ganache
 const web3 = new Web3(ganache.provider());

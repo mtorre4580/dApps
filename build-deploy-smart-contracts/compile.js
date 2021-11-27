@@ -6,7 +6,7 @@ const solc = require("solc");
 // Return only the ABI and the bytecode, used to deploy and interact with the smart contract 
 function compile(name) {
   const contract = `${name}.sol`;
-  const pathContract = path.resolve(__dirname, `../contracts/${contract}`);
+  const pathContract = path.resolve(__dirname, `./contracts/${contract}`);
   const source = fs.readFileSync(pathContract, "utf8");
   const input = {
     language: "Solidity",
