@@ -2,6 +2,12 @@
 
 Decentralized applications that run on a blockchain network or a peer-to-peer (P2P) network
 
+## Blockchain
+
+The blockchain is made up of different blocks linked together.
+These blocks contain transactions and store the fingerprint of the immediately preceding block,
+in such a way that it is practically impossible to be able to modify a block without all the successive blocks being invalidated
+
 ## Ethereum
 
 Ethereum is a decentralized platform designed to run smart contracts. It is a distributed computer spread across many nodes around 
@@ -21,3 +27,7 @@ Smart contracts on Ethereum enable us to execute arbitrary computations on the b
 
 The Ethereum Virtual Machine enables the Ethereum blockchain to be programmable. Ethereum Smart Contracts are written 
 in high level programming languages like [Solidity](https://docs.soliditylang.org/en/v0.8.10/), which have to be compiled down to Ethereum Virtual Machine (EVM) code
+
+## web3
+
+[web3](https://www.npmjs.com/package/web3) library to be able to communicate with the Smart Contract

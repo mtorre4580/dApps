@@ -2,6 +2,12 @@
 
 Aplicaciones decentralizadas que corren en una red blockchain o en una red peer-to-peer (P2P)
 
+## Blockchain
+
+La cadena de bloques se encuentra compuesta por diferentes bloques unidos entre si.
+Dichos bloques contienen transacciones y almacenan la huella digital del bloque inmediatamente anterior, 
+de tal modo que es practicamente imposible poder modificar un bloque sin que todos los bloques sucesivos queden invalidados
+
 ## Ethereum
 
 Ethereum es una plataforma decentralizada que permite correr Smart Contracts, son máquinas distribuidas en varios
@@ -21,3 +27,7 @@ Los Smart Contracts en Ethereum, permiten ejecutar código en el blockchain
 
 La EVM permite que la red de Ethereum pueda ser programable, los Smart Contracts son escritos en un lenguaje de alto nivel 
 [Solidity](https://docs.soliditylang.org/en/v0.8.10/), que se compila a bytecode que entiende la EVM.
+
+## web3
+
+[web3](https://www.npmjs.com/package/web3) libreria para poder comunicarse con el Smart Contract
