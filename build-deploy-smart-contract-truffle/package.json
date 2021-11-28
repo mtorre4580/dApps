@@ -1,0 +1,21 @@
+{
+  "name": "build-deploy-smart-contract-truffle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "truffle compile",
+    "deploy:development": "truffle deploy --network development",
+    "test": "mocha test/**/*.js",
+    "ganache": "ganache-cli --port 7545 --chainId 5777"
+  },
+  "author": "mtorre4580@outlook.com",
+  "license": "ISC",
+  "dependencies": {
+    "ganache-cli": "^6.12.2",
+    "mocha": "^9.1.3"
+  }
+}
